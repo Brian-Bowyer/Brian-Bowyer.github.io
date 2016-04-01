@@ -1,11 +1,24 @@
-.main {
-	background-color: green;
-	float: center;
+body{
+	margin: 0;
+	padding: 0;
+	background-color: gray;
 }
 
-.aside {
-	float: left;
-	width: 300px;
+main {
+	background-color: aqua;
+	height: 100%;
+
+	padding: 10px;
+	margin-left: 240px;
+	margin-top: 10px;
+}
+
+aside {
+	position: absolute;
+	width: 200px;
+	height: 100%;
 	background-color: yellow;
 	padding: 10px;
+	margin-left: 10px;
+	text-align: left;
 }
