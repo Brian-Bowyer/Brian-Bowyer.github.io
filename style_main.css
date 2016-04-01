@@ -1,0 +1,10 @@
+.main {
+	background-color: green;
+}
+
+.aside {
+	float: left;
+	width: 10%;
+	background-color: yellow;
+	padding: 10px;
+}
