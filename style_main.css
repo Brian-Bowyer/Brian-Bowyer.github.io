@@ -2,14 +2,16 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color: gray;
+
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 main {
-	background-color: aqua;
+	background-color: white;
 	height: 100%;
 
 	padding: 10px;
-	margin-left: 240px;
+	margin-left: 230px;
 	margin-top: 10px;
 }
 
@@ -17,8 +19,24 @@ aside {
 	position: absolute;
 	width: 200px;
 	height: 100%;
-	background-color: yellow;
-	padding: 10px;
+	background-color: #AAFFFF;
+	padding: 0px;
 	margin-left: 10px;
 	text-align: left;
+}
+
+ul {
+	list-style-type: default;
+}
+
+li {
+	padding-top: 3px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Georgia, "Palatino Linotype", "Book Antiqua", serif;
+}
+
+h1 {
+	text-align: center;
 }
