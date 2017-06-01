@@ -1,40 +1,13 @@
 body{
-	margin: 0;
-	padding: 0;
-	background-color: gray;
+	background-color: black;
+	color: white;
 
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: Helvetica;
 }
 
 main {
-	background-color: white;
-	height: 100%;
-
-	padding: 10px;
-	margin-left: 230px;
-	margin-top: 10px;
-}
-
-aside {
-	position: absolute;
-	width: 200px;
-	height: 100%;
-	background-color: #AAFFFF;
-	padding: 0px;
-	margin-left: 10px;
-	text-align: left;
-}
-
-ul {
-	list-style-type: default;
-}
-
-li {
-	padding-top: 3px;
-}
-
-h1, h2, h3, h4, h5 {
-	font-family: Georgia, "Palatino Linotype", "Book Antiqua", serif;
+	padding-left: 25%;
+	padding-right: 25%;
 }
 
 h1 {
