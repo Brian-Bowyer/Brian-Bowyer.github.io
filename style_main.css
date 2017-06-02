@@ -1,8 +1,6 @@
 body{
-	background-color: black;
-	color: white;
-
 	font-family: Helvetica;
+	background-color: #000;
 }
 
 main {
@@ -10,6 +8,31 @@ main {
 	padding-right: 25%;
 }
 
+div {
+
+}
+
 h1 {
 	text-align: center;
+}
+
+.left-stuff{
+	padding-left: 0;
+}
+
+.panel-default > .panel-heading{
+}
+
+.panel-default > .panel-body {
+}
+
+.list-group-item {
+}
+
+.skill-list{
+	list-style: none;
+}
+
+#contact-list{
+	list-style: none;
 }
