@@ -36,3 +36,7 @@ h1 {
 #contact-list{
 	list-style: none;
 }
+
+#contact-list>li{
+	display: inline;
+}
