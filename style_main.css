@@ -1,6 +1,7 @@
 body{
 	font-family: Helvetica;
 	background-color: #000;
+	color: white;
 }
 
 main {
@@ -8,8 +9,8 @@ main {
 	padding-right: 25%;
 }
 
-div {
-
+section {
+	color: black;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
 .panel-default > .panel-heading{
 }
 
-.panel-default > .panel-body {
+.panel-default {
 }
 
 .list-group-item {
@@ -33,10 +34,10 @@ h1 {
 	list-style: none;
 }
 
-#contact-list{
+.inline-list{
 	list-style: none;
 }
 
-#contact-list>li{
+.inline-list>li{
 	display: inline;
 }
